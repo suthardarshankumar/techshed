@@ -1,0 +1,135 @@
+.shop-all-container {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.product-list-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-detail-container {
+  flex: 3;
+  padding: 20px;
+}
+
+.list-heading {
+  font-size: 18px;
+  padding: 72.5px 0 10px 25px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list-name {
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 20px 0 10px 25px;
+}
+
+.product-list-name-link {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.5s ease-out;
+  display: inline-block;
+}
+
+.product-list-name-link:hover {
+  transform: scale(1.2);
+  color: #7a08e5;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-head {
+  position: relative;
+  height: 270px;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-heading {
+  font-size: 32px;
+  text-align: left;
+  padding: 50px 0 25px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img {
+  padding-top: 10px;
+  width: 90%;
+  height: 210px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.product-img:hover {
+  animation-name: transform;
+  animation-duration: 3s;
+  transform: scale(1.1, 1.1);
+}
+
+.product-img-tv {
+  padding-top: 10px;
+  padding-left: 13px;
+  width: 90%;
+  height: 210px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.product-img-tv:hover {
+  animation-name: transform;
+  animation-duration: 3s;
+  transform: scale(1.1, 1.1);
+}
+
+.product-name {
+  padding-left: 10px;
+}
+
+
+.product-buy-button {
+  font-size: 18px;
+  color: white;
+  background-color: #7a08e5;
+  padding: 15px 40px;
+  border: 2px solid #7a08e5;
+  border-radius: 10px;
+  margin: 10px 0 0 0;
+}
+
+.product-buy-button:hover { 
+  background-color: transparent;
+  font-weight: 500;
+  border: 2px solid #7a08e5;
+  color: #7a08e5;
+}
